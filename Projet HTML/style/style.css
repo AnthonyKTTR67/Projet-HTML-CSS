@@ -1,0 +1,226 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Styles pour les images */
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Styles pour le header */
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 50%;
+    height: auto;
+}
+
+/* Styles pour le menu */
+nav {
+    margin-top: 20px;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    margin: 0 15px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+/* Styles pour l'introduction */
+.introduction {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+.recherche-langages {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#search-langage {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#search-langage::placeholder {
+    font-style: italic;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffc107;
+    color: #343a40;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e0a800;
+}
+
+/* Styles pour les sections */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #007bff;
+    text-align: center;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #343a40;
+}
+
+h3 {
+    font-size: 1.75em;
+    color: #343a40;
+}
+
+h4 {
+    font-size: 1.5em;
+    color: #343a40;
+}
+
+h5 {
+    font-size: 1.25em;
+    color: #343a40;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding-left: 40px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.text-align {
+    text-align: center;
+}
+
+/* Styles pour le formulaire d'inscription */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Styles pour le footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+}
+
+/* Styles spécifiques aux images */
+.image {
+    margin: 0 auto; /* Centre horizontalement */
+    display: block; /* Assure que l'image est sur une ligne séparée */
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.eleImage:hover {
+    background-color: yellow;
+}
+
+.legende {
+    text-align: center;
+}
+
+.vignettes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

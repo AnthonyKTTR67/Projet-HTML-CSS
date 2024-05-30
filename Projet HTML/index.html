@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style/style.css">
+        <title>Progra Passion - Le site des passionnés de programmation</title>
+    </head>
+    <body>
+        <header>
+            <img class="image" src="./image/intro.jpg" alt="Logo de Progra Passion" width="50%" height="50%">
+            <nav>
+                <h2>Sommaire</h2>
+                <ul id="menu">
+                    <li><a href="#langages">Meilleurs langages</a></li>
+                    <li><a href="#populaires">Articles populaires</a></li>
+                    <li><a href="#événements">Fait(s) intéressants du futur</a></li>
+                    <li><a href="#inscription">S'inscrire</a></li>
+                </ul>
+            </nav> 
+        </header> 
+        <br>
+        <div class="introduction">
+            <p>Quel langage apprendre en 2024 ? Débutant ou expert, tout le monde y trouve son compte</p>
+            <br>
+            <div class="recherche-langages">
+                <input type="text" id="search-langage" placeholder="Rechercher un langage de programmation (HTML, CSS, C, C++, JavaScript, Python)">
+                <button onclick="rechercheLangage()">Rechercher</button>
+            </div> 
+            <br>
+            <p>Plus de 3500 développeurs nous ont déjà rejoints</p>
+        </div>
+
+        <div>
+           <section id="langages">
+            <h1 class="souligne">Les meilleurs langages de programmation :</h1>
+            <br>
+            <h4><div class="html">L'HTML, un langage de programmation web.</div></h4>
+            <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">
+                <img class="image" src="./image/HTML.jpg" alt="html">
+            </a>
+        </div>
+        <p class="text-align">Cliquer sur l'image pour plus d'information sur l'HTML (idem pour les autres photos)</p>
+        <br>
+        <p class="same-size">Le HTML (HyperText Markup Language) est le langage de programmation de base pour la création de pages web. Il fonctionne en utilisant une série de balises pour structurer le contenu d'une page web. <br> Voici un résumé des points clés :</p>
+        <ol>
+            <li>Contenu : Le HTML permet de structurer le contenu d'une page web en utilisant des balises telles que "header", "nav", "section", "article", "footer", etc. Ces balises aident à organiser le contenu de manière logique et hiérarchique.</li>
+            <li>Texte et médias : On peut inclure du texte, des images, des vidéos, des liens, etc., en utilisant des balises spécifiques. Par exemple, "p" pour les paragraphes, "img" pour les images, "video" pour les vidéos, "a" pour les liens.</li>
+            <li>Formulaires : Le HTML permet de créer des formulaires interactifs pour collecter des données des utilisateurs. On utilise des balises telles que "form", "input", "textarea", "select", etc.</li>
+            <li>Sémantique : Le HTML offre un ensemble de balises sémantiques qui décrivent le contenu de manière précise. Cela inclut des balises comme "header", "nav", "main", "aside", "article", "section", qui aident les moteurs de recherche et les lecteurs d'écran à comprendre la structure et le sens du contenu.</li>
+            <li>Liens hypertextes : Les liens ("a"), permettent de relier différentes pages web entre elles ou des sections d'une même page.</li>
+            <li>Commentaires : On peut ajouter des commentaires dans le code HTML en utilisant <!-- commentaire -->, ce qui permet de documenter le code pour d'autres développeurs ou pour soi-même.</li>
+            <li>Compatibilité : Le HTML est pris en charge par tous les navigateurs web et est essentiel pour la création de sites web accessibles et interopérables sur différentes plateformes.</li>
+        </ol>
+        <p>En résumé, le HTML est le fondement de la création de pages web, il permet de structurer et de présenter le contenu de manière efficace et accessible, et constitue ainsi une première étape indispensable dans tout projet de développement web.</p>
+        <br>
+        <h4>CSS : Vous verrez le monde autrement.</h4>
+        <br>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+            <img class="image" src="./image/CSS.jpg" alt="css">
+        </a>
+        <br><br>
+        <p>Le CSS (Cascading Style Sheets) est un langage de feuille de style utilisé pour définir l'apparence visuelle des éléments HTML sur une page web. Voici une explication des principaux aspects du CSS :</p>
+        <ol>
+            <li>Sélecteurs CSS : Les sélecteurs CSS sont des motifs utilisés pour sélectionner les éléments HTML auxquels appliquer des styles. Voici quelques types de sélecteurs :
+                <ul>
+                    <li>Sélecteurs de type : Sélectionne tous les éléments du type spécifié, par exemple h1 pour sélectionner tous les titres "h1".</li>
+                    <li>Sélecteurs de classe : Sélectionne les éléments ayant une classe spécifique, par exemple .ma-classe pour sélectionner tous les éléments ayant la classe ma-classe.</li>
+                    <li>Sélecteurs d'identifiant : Sélectionne un élément par son ID unique, par exemple #mon-id pour sélectionner l'élément avec l'ID mon-id.</li>
+                    <li>Sélecteurs de descendants : Sélectionne les éléments descendants d'un autre élément, par exemple div p pour sélectionner tous les paragraphes "p" qui sont des descendants de "div".</li>
+                </ul>
+            </li>
+            <li>Propriétés CSS : Les propriétés CSS sont des attributs utilisés pour définir l'apparence des éléments sélectionnés. Voici quelques exemples de propriétés CSS :
+                <ul>
+                    <li>Couleur : Définit la couleur du texte, par exemple color: red;</li>
+                    <li>Arrière-plan : Définit la couleur ou l'image de fond, par exemple background-color: blue; ou background-image: url('image.jpg');</li>
+                    <li>Marges : Définit l'espace autour des éléments, par exemple margin: 10px;</li>
+                    <li>Polices : Définit la police du texte, par exemple font-family: Arial, sans-serif;</li>
+                </ul>
+            </li>
+        </ol>
+        <br>
+        <h4>JavaScript : Tout devient dynamique.</h4>
+        <br>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+            <img class="image" src="./image/JS.png" alt="javascript" width="50%" height="50%">
+        </a>
+        <br><br>
+        <p>JavaScript est un langage de programmation de haut niveau, interprété et orienté objet. Il est principalement utilisé dans les pages web pour ajouter des fonctionnalités interactives et dynamiques. Avec JavaScript, vous pouvez manipuler le contenu HTML, réagir aux événements utilisateur, effectuer des requêtes réseau (AJAX), et bien plus encore. Il est largement utilisé dans le développement web, aussi bien côté client que côté serveur grâce à des plateformes comme Node.js. Apprendre JavaScript est un élément essentiel pour tout développeur web moderne.</p>
+        <br>
+        <h4>Le C : Rapide et optimisé.</h4>
+        <br>
+        <a href="https://www.labri.fr/perso/domenger/Cours/ProgrammationEnLangageC.pdf" target="_blank">
+            <img class="image" src="./image/C.jpg" alt="C" width="50%" height="50%">
+        </a>
+        <p>Le langage C est un langage de programmation procédural de bas niveau, développé à l'origine par Dennis Ritchie pour le développement du système d'exploitation Unix dans les années 1970. Il est apprécié pour sa proximité avec l'architecture matérielle des ordinateurs, sa performance et sa portabilité. Le C est largement utilisé dans le développement de systèmes d'exploitation, de logiciels embarqués, de jeux vidéo, de logiciels système et d'applications nécessitant une gestion fine des ressources matérielles. Apprendre le C est crucial pour comprendre les concepts fondamentaux de la programmation et pour les développeurs qui cherchent à optimiser les performances de leurs applications.</p>
+        <br>
+        <h4>Le C++ : L'extension orientée objet du C.</h4>
+        <br>
+        <a href="https://fr.wikipedia.org/wiki/C%2B%2B" target="_blank">
+            <img class="image" src="./image/C++.jpg" alt="c++" width="50%" height="50%">
+        </a>
+        <br><br>
+        <p>Le C++ est un langage de programmation compilé et multi-paradigme, conçu comme une extension du langage C. Il a été développé par Bjarne Stroustrup dans les années 1980 pour ajouter des fonctionnalités de programmation orientée objet au C. Le C++ est largement utilisé pour le développement de logiciels systèmes, de jeux vidéo, d'applications critiques en termes de performance et de logiciels embarqués. Sa richesse en termes de fonctionnalités et de paradigmes (procédural, orienté objet, générique) en fait un langage puissant mais complexe, nécessitant une bonne compréhension de ses concepts avancés.</p>
+        <br>
+        <h4>Python : La simplicité avant tout.</h4>
+        <br>
+        <a href="https://www.python.org/doc/essays/blurb/" target="_blank">
+            <img class="image" src="./image/python.png" alt="python" width="50%" height="50%">
+        </a>
+        <br><br>
+        <p>Python est un langage de programmation interprété, de haut niveau et polyvalent, créé par Guido van Rossum et publié pour la première fois en 1991. Connu pour sa syntaxe claire et lisible, Python favorise la productivité des développeurs et la lisibilité du code. Il est utilisé dans de nombreux domaines, tels que le développement web, l'analyse de données, l'intelligence artificielle, l'automatisation de tâches, et plus encore. Python dispose d'une large communauté et d'un écosystème riche en bibliothèques et frameworks, ce qui en fait un excellent choix pour les débutants comme pour les développeurs expérimentés.</p>
+        </div>
+    </section>
+
+        <section id="populaires">
+            <h1>Les articles les plus populaires :</h1>
+            <div class="article-populaire">
+                <h2>Les meilleures pratiques pour apprendre Python en 2024</h2>
+                <p>Python est l'un des langages de programmation les plus populaires et les plus demandés en 2024. Apprendre Python peut ouvrir de nombreuses portes...</p>
+                <a href="https://python.sdv.univ-paris-diderot.fr/01_introduction/" target="_blank">Lire l'article</a>
+            </div>
+            <div class="article-populaire">
+                <h2>Pourquoi choisir JavaScript pour le développement web</h2>
+                <p>JavaScript est un langage de programmation essentiel pour tout développeur web. Il permet de créer des sites web interactifs et dynamiques...</p>
+                <a href="https://fr.wikipedia.org/wiki/JavaScript" target="_blank">Lire l'article</a>
+            </div>
+            <div class="article-populaire">
+                <h2>Les avantages du langage C pour les développeurs de logiciels systèmes</h2>
+                <p>Le langage C est connu pour sa performance et son efficacité, ce qui en fait un choix privilégié pour les développeurs de logiciels systèmes...</p>
+                <a href="https://fr.wikipedia.org/wiki/C_(langage)" target="_blank">Lire l'article</a>
+            </div>
+        </section>
+
+        <section id="événements">
+            <h1>Fait(s) intéressants du futur :</h1>
+            <div class="evenement-futur">
+                <h2>La conférence des développeurs en 2025</h2>
+                <p>La conférence des développeurs en 2025 rassemblera les experts du monde entier pour discuter des dernières avancées en matière de programmation...</p>
+                <a href="https://www.intel.fr/content/www/fr/fr/business/resources/future-of-it.html#:~:text=Tendances%20futures%20de%20l'informatique%20%3A&text=L'infrastructure%20Cloud%20%C3%A9voluera%20vers,tous%20les%20types%20de%20Cloud." target="_blank">En savoir plus</a>
+            </div>
+        </section>
+
+        <section id="inscription">
+            <h1>S'inscrire :</h1>
+            <form>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                <br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <button type="submit">S'inscrire</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Progra Passion. Tous droits réservés.</p>
+        </footer>
+
+        <script>
+            function rechercheLangage() {
+                var recherche = document.getElementById('search-langage').value.toLowerCase();
+                var url = '';
+                switch(recherche) {
+                    case 'html':
+                        url = 'https://developer.mozilla.org/fr/docs/Web/HTML';
+                        break;
+                    case 'css':
+                        url = 'https://developer.mozilla.org/en-US/docs/Web/CSS';
+                        break;
+                    case 'javascript':
+                        url = 'https://developer.mozilla.org/en-US/docs/Web/JavaScript';
+                        break;
+                    case 'python':
+                        url = 'https://www.python.org/doc/essays/blurb/';
+                        break;
+                    case 'c':
+                        url = 'https://www.labri.fr/perso/domenger/Cours/ProgrammationEnLangageC.pdf';
+                        break;
+                    case 'c++':
+                        url = 'https://fr.wikipedia.org/wiki/C%2B%2B';
+                        break;
+                    default:
+                        alert('Langage non trouvé');
+                        return;
+                }
+                window.location.href = url;
+            }
+        </script>
+    </body>
+</html>
